@@ -5,18 +5,19 @@
 -->
 <head>
 
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
-    <script src="{{ site.baseurl }}/js/jquery.min.js"></script>
-    <script src="{{ site.baseurl }}/js/skel.min.js"></script>
-    <script src="{{ site.baseurl }}/js/skel-layers.min.js"></script>
-    <script src="{{ site.baseurl }}/js/init.js"></script>
-    <noscript>
-        <link rel="stylesheet" href="{{ site.baseurl }}/css/skel.css" />
-        <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css" />
-        <link rel="stylesheet" href="{{ site.baseurl }}/css/style-xlarge.css" />
-    </noscript>
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  <meta name="description" content=""/>
+  <meta name="keywords" content=""/>
+  <!--[if lte IE 8]>
+  <script src="js/html5shiv.js"></script><![endif]-->
+  <script src="{{ site.url }}/js/jquery.min.js"></script>
+  <script src="{{ site.url }}/js/skel.min.js"></script>
+  <script src="{{ site.url }}/js/skel-layers.min.js"></script>
+  <script src="{{ site.url }}/js/init.js"></script>
+
+  <link rel="stylesheet" href="{{ site.url }}/css/skel.css"/>
+  <link rel="stylesheet" href="{{ site.url }}/css/style.css"/>
+  <link rel="stylesheet" href="{{ site.url }}/css/style-xlarge.css"/>
+
 </head>
