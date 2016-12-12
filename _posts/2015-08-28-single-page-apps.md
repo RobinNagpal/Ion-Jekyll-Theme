@@ -2,7 +2,7 @@
 layout: post
 title:  "What are Single Page Apps ?"
 date:   2015-08-28 11:37:44
-categories: update
+categories: Web Development
 ---
 Single page apps or Websites are the websites that load the page upon first request and there is no page refresh on all the subsequent actions of the user. So when the first request goes to the server, the server responds with an HTML page which has link to one of the JavaScript Frameworks. 
 

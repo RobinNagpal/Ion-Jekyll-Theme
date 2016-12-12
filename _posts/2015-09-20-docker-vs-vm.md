@@ -2,7 +2,7 @@
 layout: post
 title:  "Docker vs VM"
 date:   2015-09-20 14:37:44
-categories: update
+categories: DevOps
 ---
 
 In the last blog post I talked about the basic concepts of "Containers" and about Docker's components that makes it easy to work with containers. Since Docker is a virtualization technology, to understand its benefits and drawbacks, we should be clear with how it differs from the currently most widely used virtualization technology "Virtual Machines".

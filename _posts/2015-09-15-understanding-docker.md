@@ -2,7 +2,7 @@
 layout: post
 title:  "Understanding Containers and Docker"
 date:   2015-09-15 14:37:44
-categories: update
+categories: DevOps
 ---
 
 Containers provide a lightweight and high-speed alternative to Virtual Machines. Containers run inside a host operating system and provide very convenient way of application process and network isolation.  A virtual machine runs its own kernel and operating system, whereas container shares its kernel with the host operating system. Even though there can be multiple containers running on the host machine, each of these containers containers is completely isolated from one another. 

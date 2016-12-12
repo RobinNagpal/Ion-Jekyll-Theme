@@ -2,7 +2,7 @@
 layout: post
 title:  "Introduction to Senna.js"
 date:   2015-08-28 14:37:44
-categories: update
+categories: Web Development
 ---
 
 ### Problem Statement

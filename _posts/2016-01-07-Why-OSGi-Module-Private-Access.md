@@ -2,7 +2,7 @@
 layout: post
 title:  "Why OSGi - Part 1 : Module - Private Access"
 date:   2016-01-07 14:37:44
-categories: update
+categories: Java
 ---
 
 The access modifiers for Java are of real help for smaller projects, But for enterprise level projects they don’t suffice the needs. Let’s try to understand by taking some examples. Suppose you are working on a multi module project is which you create JARs for each module, and then use these JARs in a parent project. Each of these JARs will consist of several packages.
