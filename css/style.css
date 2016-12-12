@@ -12,14 +12,15 @@
 
 body {
     background: #fff;
+
 }
 
 body, input, select, textarea {
-    color: #555f66;
-    font-family: "Roboto", Helvetica, sans-serif;
-    font-size: 14pt;
-    font-weight: 300;
-    line-height: 1.75em;
+    color: #555f66; !important;
+    font-family: "Roboto" !important;
+    font-size: 16px !important;
+    font-weight: 300; !important;
+    line-height: 1.75em; !important;
 }
 
 a {
@@ -856,19 +857,35 @@ input[type="button"]:disabled,
 /* Wrapper */
 
 .wrapper {
-    padding: 3em 0 1em 0;
+    padding: 2em 0 1em 0;
 }
 
 .wrapper.style1 {
     background: #fff;
     color: #555f66;
+    margin: 0 -1em 0 -1em;
+}
+
+.wrapper.tag-container {
+    background: #fff;
+    color: #555f66;
+    margin: 0 -1em 0 1em;
+    height: 100%;
 }
 
 .wrapper.style2 {
     background: #192024;
     color: #c5c7c8;
+    margin: 0 -1em 0 -1em;
 }
 
+.blog-post-summary {
+    padding: 0 2em 0 3em;
+}
+
+.tag-box {
+    padding: 2em 0 0 1em;
+}
 .wrapper.style2 h2, .wrapper.style2 h3, .wrapper.style2 h4, .wrapper.style2 h5, .wrapper.style2 h6 {
     color: #ffffff;
 }
@@ -927,7 +944,7 @@ input[type="button"]:disabled,
 }
 
 #header h1 a {
-    font-size: 1.25em;
+    font-size: .75em;
 }
 
 #header nav {
