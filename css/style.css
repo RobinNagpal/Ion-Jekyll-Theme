@@ -869,7 +869,7 @@ input[type="button"]:disabled,
 .wrapper.tag-container {
     background: #fff;
     color: #555f66;
-    margin: 2em -1em 0 1em;
+    margin: 2em 1em 0 1em;
     height: 100%;
 }
 
@@ -880,7 +880,7 @@ input[type="button"]:disabled,
 }
 
 .blog-post-summary {
-    padding: 0 2em 0 3em;
+    padding: 0 2em 0 4em;
 }
 
 .tag-box {
