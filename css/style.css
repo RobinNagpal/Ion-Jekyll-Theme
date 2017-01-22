@@ -1047,6 +1047,10 @@ input[type="button"]:disabled,
     z-index: 1;
 }
 
+#banner .inner p {
+    padding: 0 5em 0 5em;
+}
+
 #banner .inner :last-child {
     margin-bottom: 0;
 }
