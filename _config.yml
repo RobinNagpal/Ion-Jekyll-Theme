@@ -12,3 +12,12 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+
+
+collections:
+  events:
+    title
+    date
+    categories
+    summary
+
