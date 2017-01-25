@@ -12,6 +12,7 @@ Learn the basics of portlet development and how to customize the platform throug
 This course introduces the service architecture of Liferay and Service Builder, essential knowledge for using the platform API.
 
 ### What You'll Learn
+
 By the end of the training, you should have an understanding of what Liferay has to offer out of the box including:
 
 * Java standard portlets
