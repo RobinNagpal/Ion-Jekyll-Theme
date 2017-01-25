@@ -30,11 +30,11 @@ By the end of the training, you should have an understanding of what Liferay has
 * Using Workflow in Liferay
 * How to use Dynamic Data Lists to retrieve information
 
-##Prerequisites: 
+## Prerequisites: 
 The Portal Administrator course is an entry level course with no prerequisites.
 
-##Course Format: 
+## Course Format: 
 Onsite, Online
 
-##Version: 
+## Version: 
 6.2
