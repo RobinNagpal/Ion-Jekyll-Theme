@@ -7,6 +7,6 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 
 collections:
   events:
-    output: false
+    output: true
   careers:
     output: true
