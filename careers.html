@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<!-- Banner -->
+
+<div class="container careers-container" >
+    <h1>careers</h1>
+<div class="row">
+  <section id="main" class="wrapper style1 col-lg-8">
+    {% for career in site.careers %}
+    <div class="{% cycle 'style1', 'style2' %} row">
+      <div class="col-md-3"><a href="{{ site.baseurl }}{{ career.url }}">{{ career.title }}</a></div>
+      <div class="col-md-6">{{ career.summary }}</div>
+      <div class="col-md-3">{{ career.date | date: "%b %-d, %Y" }}</div>
+    </div>
+    {% endfor %}
+  </section>
+  <section class="col-lg-4 wrapper tag-container">
+
+
+  </section>
+</div>
+
+</div>

@@ -2,7 +2,11 @@
 title: Echofex
 email: robinnagpal.tiet@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.echofex.com" # the base hostname & protocol for your site
+# url: "http://www.echofex.com" # the base hostname & protocol for your site
+
+
 collections:
   events:
+    output: false
+  careers:
     output: true
