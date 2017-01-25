@@ -6,16 +6,16 @@ layout: default
 
 <div class="container events-container" >
     <h1>Events</h1>
-<div class="row">
-  <section id="main" class="wrapper style1 col-lg-8">
+<div>
+  <div id="main" class="col-lg-8">
     {% for event in site.events %}
-    <div class="{% cycle 'style1', 'style2' %} row">
+    <div class="row">
       <div class="col-md-3"><a href="{{ site.baseurl }}{{ event.url }}">{{ event.title }}</a></div>
       <div class="col-md-6">{{ event.summary }}</div>
       <div class="col-md-3">{{ event.date | date: "%b %-d, %Y" }}</div>
     </div>
     {% endfor %}
-  </section>
+  </div>
   <section class="col-lg-4 wrapper tag-container">
 
 
