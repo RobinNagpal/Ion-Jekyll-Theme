@@ -14,6 +14,7 @@ This training establishes a robust foundation for a successful Liferay installat
 
 ### What You'll Learn
 By the end of the training, you should have an understanding of what Liferay has to offer out of the box including:
+
 * Portal Navigation
 * Managing users through Liferay Organizations and User Groups
 * How Liferay's permissions system works out of the box
