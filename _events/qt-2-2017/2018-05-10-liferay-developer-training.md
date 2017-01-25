@@ -1,7 +1,7 @@
 ---
 layout: events
 title:  Liferay - Developer Training
-date:   2018-05-10 8:00 am
+date:   2017-05-10 8:00 am
 categories: Liferay
 summary: Developer Training builds the foundation you need to build successful apps on the Liferay Platform. Learn the basics of portlet development and how to customize the platform through hooks, Ext plugins, layout templates and themes. 
 ---

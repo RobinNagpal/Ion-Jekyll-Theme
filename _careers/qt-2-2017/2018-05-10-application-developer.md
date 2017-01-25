@@ -1,7 +1,7 @@
 ---
-layout: events
+layout: careers
 title:  Application Developer
-date:   2018-05-10 8:00 am
+date:   2017-05-10 8:00 am
 categories: Liferay
 summary: 4 to 9 years of development and delivery experience with Java/JEE. Hands-on experience in analysis, design, coding, and implementation of complex, custom-built applications. Great OO skills, including strong design patterns knowledge 
 type: Full Time

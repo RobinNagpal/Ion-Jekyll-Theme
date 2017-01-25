@@ -1,7 +1,7 @@
 ---
-layout: events
+layout: careers
 title:  Senior Software Developer
-date:   2018-05-10 8:00 am
+date:   2017-05-10 8:00 am
 categories: Liferay
 summary: Extensive hands-on development and delivery experience with a broad mix of languages and technologies. Great Object Oriented coding practices, including strong design patterns knowledge, Refactoring, Clean Code, Domain Driven Design, Encapsulation etc and enterprise integration.
 type: Full Time
