@@ -4,10 +4,42 @@
     padding: 5em 0 5em 0;
 }
 
+.events-table {
+    padding: 2em 0 2em 0;
+}
+
+.events-row {
+    padding: 1em 0 1em 0;
+}
+
 
 
  /*events details*/
 
  .events-detail-container {
+     padding: 5em 0 5em 0;
+ }
+
+
+
+ /*careers list*/
+
+ .careers-container {
+     padding: 5em 0 5em 0;
+ }
+
+ .careers-table {
+     padding: 2em 0 2em 0;
+ }
+
+ .careers-row {
+     padding: 1em 0 1em 0;
+ }
+
+
+
+ /*careers details*/
+
+ .careers-detail-container {
      padding: 5em 0 5em 0;
  }

@@ -7,9 +7,9 @@ layout: default
 <div class="container events-container" >
     <h1>Events</h1>
 <div>
-  <div id="main" class="col-lg-8">
+  <div id="main" class="col-lg-8 events-table">
     {% for event in site.events %}
-    <div class="row">
+    <div class="row events-row">
       <div class="col-md-3"><a href="{{ site.baseurl }}{{ event.url }}">{{ event.title }}</a></div>
       <div class="col-md-6">{{ event.summary }}</div>
       <div class="col-md-3">{{ event.date | date: "%b %-d, %Y" }}</div>
