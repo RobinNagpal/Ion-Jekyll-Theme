@@ -15,20 +15,20 @@ This training establishes a robust foundation for a successful Liferay installat
 ### What You'll Learn
 By the end of the training, you should have an understanding of what Liferay has to offer out of the box including:
 
-*Portal Navigation
-*Managing users through Liferay Organizations and User Groups
-*How Liferay's permissions system works out of the box
-*Applying permissions to users through Roles and teams
-*Managing creation and display of basic content through Sites
-*Managing pages in Sites
-*How to create and use Site and Page Templates
-*What different content types are available in Liferay
-*Managing your documents and media
-*How you can use Liferay for collaboration
-*Relating content through the Asset Framework
-*Extending default information with Custom Fields
-*Using Workflow in Liferay
-*How to use Dynamic Data Lists to retrieve information
+* Portal Navigation
+* Managing users through Liferay Organizations and User Groups
+* How Liferay's permissions system works out of the box
+* Applying permissions to users through Roles and teams
+* Managing creation and display of basic content through Sites
+* Managing pages in Sites
+* How to create and use Site and Page Templates
+* What different content types are available in Liferay
+* Managing your documents and media
+* How you can use Liferay for collaboration
+* Relating content through the Asset Framework
+* Extending default information with Custom Fields
+* Using Workflow in Liferay
+* How to use Dynamic Data Lists to retrieve information
 
 ##Prerequisites: 
 The Portal Administrator course is an entry level course with no prerequisites.
