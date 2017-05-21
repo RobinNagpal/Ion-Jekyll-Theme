@@ -93,7 +93,7 @@ In flux, now the logic for updating of the data lives closer to the data store
 
 ##### Store - store has four parts
 
-1. The actual “model” or data store
+**The actual “model” or data store**
 
 ```
     var _store = {
@@ -101,7 +101,7 @@ In flux, now the logic for updating of the data lives closer to the data store
     };
 ```
 
-2. Setter methods
+**Setter methods**
 
 ```
     var addItem = function(item){
@@ -112,7 +112,9 @@ In flux, now the logic for updating of the data lives closer to the data store
       _store.list.splice(index, 1);
     }
 ```
-3. The Store itself
+
+
+**The Store itself**
 
 ```
     var todoStore = objectAssign({}, EventEmitter.prototype, {
@@ -128,7 +130,8 @@ In flux, now the logic for updating of the data lives closer to the data store
     });
 ```
 
-4. Action handlers
+
+**Action handlers**
 
 ```
     AppDispatcher.register(function(payload){
