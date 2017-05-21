@@ -42,7 +42,7 @@ In flux, now the logic for updating of the data lives closer to the data store
 
 ##### Registering your component with Store
 
-```javascript 1.6
+```
   componentDidMount: function(){
     todoStore.addChangeListener(this._onChange);
   }
@@ -56,7 +56,7 @@ In flux, now the logic for updating of the data lives closer to the data store
 
 ##### Actions
 
-```javascript 1.6
+```
     var AppDispatcher = require('../dispatcher/AppDispatcher');
     var todoActions = {
       addItem: function(item){
@@ -70,7 +70,7 @@ In flux, now the logic for updating of the data lives closer to the data store
 
 ##### Constant
 
-```javascript 1.6
+```
     var appConstants = {
       ADD_ITEM: "ADD_ITEM",
       REMOVE_ITEM: "REMOVE_ITEM"
@@ -79,7 +79,7 @@ In flux, now the logic for updating of the data lives closer to the data store
 
 ##### Dispatcher
 
-```javascript 1.6
+```
     var Dispatcher = require('flux').Dispatcher;
     var AppDispatcher = new Dispatcher();
     
@@ -95,7 +95,7 @@ In flux, now the logic for updating of the data lives closer to the data store
 
 1. The actual “model” or data store
 
-```javascript 1.6
+```
     var _store = {
       list: []
     };
@@ -103,7 +103,7 @@ In flux, now the logic for updating of the data lives closer to the data store
 
 2. Setter methods
 
-```javascript 1.6
+```
     var addItem = function(item){
       _store.list.push(item);
     };
@@ -114,7 +114,7 @@ In flux, now the logic for updating of the data lives closer to the data store
 ```
 3. The Store itself
 
-```javascript 1.6
+```
     var todoStore = objectAssign({}, EventEmitter.prototype, {
       addChangeListener: function(cb){
         this.on(CHANGE_EVENT, cb);
@@ -130,7 +130,7 @@ In flux, now the logic for updating of the data lives closer to the data store
 
 4. Action handlers
 
-```javascript 1.6
+```
     AppDispatcher.register(function(payload){
       var action = payload.action;
       switch(action.actionType){
