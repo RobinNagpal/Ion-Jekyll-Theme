@@ -24,7 +24,7 @@ Senna.js is based on the concept of surfaces, i.e. you register the surfaces tha
 * Step 6) It then updates the URL programmatically via Javascript and completes the rendering
 
 We can represent the above flow as :
-![]("{{ site.baseurl }}/images/posts/2015/senna-js/senna.js.png")
+<img src="{{ site.baseurl }}/images/posts/2015/senna-js/senna.js.png" class="half-fit image">
 
 So comparing it to the famous SPA frameworks we can see that there are very few changes required on the server side or client side. The changes that are required are related to including of Senna.js and registering of surfaces & URLs.
 
