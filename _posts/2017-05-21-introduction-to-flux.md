@@ -39,7 +39,9 @@ In flux, now the logic for updating of the data lives closer to the data store
 
 ### Key code snippets of a Flux app
 
+
 ##### Registering your component with Store
+
 ```javascript 1.6
   componentDidMount: function(){
     todoStore.addChangeListener(this._onChange);
