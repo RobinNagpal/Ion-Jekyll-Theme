@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Introduction to Actors (Akka)"
+title:  "Akka Actors Api - Scala"
 date:   2017-05-23 23:37:44
 categories: scala
 ---
