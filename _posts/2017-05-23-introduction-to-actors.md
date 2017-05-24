@@ -85,3 +85,21 @@ Example
     context.actorFor("/user/serviceA/aggregator") // will look up this absolute path
     context.actorFor("../joe") // will look up sibling beneath same supervisor
 ```
+
+Remote actor addresses may also be looked up, if remoting is enabled.
+
+```
+    context.actorFor("akka://app@otherhost:1234/user/serviceB")
+```
+
+### Send messages
+- `!` means “fire-and-forget”, e.g. send a message asynchronously and return immediately. Also known as tell.
+- `?` sends a message asynchronously and returns a Future representing a possible reply. Also known as ask.
+
+### Reply to messages
+If you want to have a handle for replying to a message, you can use sender.
+
+```
+    case request => val result = process(request)
+                    sender ! result
+```
