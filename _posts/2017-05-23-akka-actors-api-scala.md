@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Akka Actors Api - Scala"
-date:   2017-05-23 23:37:44
+date:   2017-05-23 15:37:44
 categories: scala
 ---
 
